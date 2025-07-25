@@ -70,6 +70,7 @@ export const InterventionTable = ({ interventions, allAgents }) => {
             <TableRow>
               <TableHead>Machine</TableHead>
               {allAgents && <TableHead>Agent</TableHead>}
+              }
               <TableHead>Type de Problème</TableHead>
               <TableHead>Bloqué le</TableHead>
               <TableHead>Déverrouillé le</TableHead>
