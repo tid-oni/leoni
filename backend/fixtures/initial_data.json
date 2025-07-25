@@ -1,0 +1,104 @@
+[
+  {
+    "model": "agents.agent",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$placeholder$hash",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@leoni.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "nom": "Admin User",
+      "role": "admin",
+      "photo": "",
+      "face_encoding": "",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "agents.agent",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$placeholder$hash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "qualite1",
+      "first_name": "",
+      "last_name": "",
+      "email": "qualite1@leoni.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "nom": "Marie Curie",
+      "role": "qualité",
+      "photo": "",
+      "face_encoding": "",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "agents.agent",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$placeholder$hash",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "maintenance1",
+      "first_name": "",
+      "last_name": "",
+      "email": "maintenance1@leoni.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-01-01T00:00:00Z",
+      "nom": "Nikola Tesla",
+      "role": "maintenance",
+      "photo": "",
+      "face_encoding": "",
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "machines.machine",
+    "pk": 1,
+    "fields": {
+      "nom_machine": "Presse Hydraulique A-100",
+      "localisation": "Atelier 1",
+      "description": "Presse hydraulique pour formage des pièces métalliques",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "machines.machine",
+    "pk": 2,
+    "fields": {
+      "nom_machine": "Robot de Soudure B-200",
+      "localisation": "Atelier 2",
+      "description": "Robot automatisé pour soudure des composants",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "machines.machine",
+    "pk": 3,
+    "fields": {
+      "nom_machine": "Tour CNC C-300",
+      "localisation": "Atelier 1",
+      "description": "Tour à commande numérique pour usinage de précision",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
