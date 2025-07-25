@@ -1,0 +1,31 @@
+# 👉 Ne pas pousser les dépendances et builds
+node_modules/
+.next/
+dist/
+out/
+build/
+.cache/
+trace/
+
+# 👉 Ne pas pousser les fichiers de config persos
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 👉 Ignorer les logs, lockfiles, system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# macOS et Windows files
+.DS_Store
+Thumbs.db
+
+# IDE (VSCode par exemple)
+.vscode/
+.idea/
+*.swp
